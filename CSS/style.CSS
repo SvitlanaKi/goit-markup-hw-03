@@ -1,0 +1,225 @@
+/** @format */
+:root {
+  --black-text--: #2e2f42;
+  --write-text--: #ffffff;
+  --big-font--: 800;
+  --font-famili-raw: "Raleway";
+  --gren-text--: #434455;
+  --blue-text--: #4d5ae5;
+}
+body {
+  color: var(--black-text--);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.headr-logo {
+  font-family: var(--font-famili-raw);
+  font-style: normal;
+  font-weight: var(--big-font--);
+  font-size: 18px;
+  line-height: 1.33;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--black-text--);
+}
+/*---------логотип------*/
+.web {
+  font-family: var(--font-famili-raw);
+  font-style: normal;
+  font-weight: var(--big-font--);
+  font-size: 18px;
+  line-height: 1.33;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--blue-text--);
+}
+/*---------навігація------*/
+.headr-link {
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--black-text--);
+}
+.header-item :hover {
+  color: var(--blue-text--);
+}
+.header-item :focus {
+  color: var(--blue-text--);
+}
+/*---------контакти------*/
+.header-exile :hover {
+  color: var(--blue-text--);
+}
+.header-exile :focus {
+  color: var(--blue-text--);
+}
+.header-tel {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--gren-text--);
+}
+.header-mail {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--gren-text--);
+}
+/*---------заголовок+кнопка------*/
+.section-first {
+  background-color: #2e2f42;
+}
+.main-first {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.button-order {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.18;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--write-text--);
+  background-color: var(--blue-text--);
+  cursor: pointer;
+  border-radius: 4px;
+}
+.button-order:hover {
+  background-color: #404bbf;
+}
+.button-order:focus {
+  background-color: #404bbf;
+}
+/*---------стратегія------*/
+.advantages {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.main-index {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--black-text--);
+}
+.main-sketchy {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/*----------що ми робимо------*/
+.maim-two {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--black-text--);
+}
+.main-work {
+  background-color: #f4f4fd;
+}
+/*---------наші спеціалісти------*/
+.maim-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--black-text--);
+}
+.main-name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--black-text--);
+}
+.main-profession {
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--gren-text--);
+}
+/*---------підвал------*/
+.footer {
+  background-color: var(--black-text--);
+}
+/*---Логотип------*/
+.footer-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.footer-floor {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+/*---------кнопки портфоліо------*/
+.portfolio {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.portfolio-button {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--blue-text--);
+  background-color: #f4f4fd;
+  cursor: pointer;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+.portfolio-button:hover {
+  background-color: var(--blue-text--);
+  color: #e7e9fc;
+}
+.portfolio-button:focus {
+  background-color: var(--blue-text--);
+  color: #e7e9fc;
+}
