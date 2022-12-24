@@ -34,17 +34,15 @@ body {
   text-decoration: none;
 }
 .container {
-  width: 1470px;
+  width: 1188px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
   margin: 0 auto;
 }
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
-  padding-left: 156px;
-  border: 4px black;
 }
 .header-navigation {
   display: flex;
@@ -79,19 +77,20 @@ body {
 .header-list {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
-.header-item {
+.header-item:not-last-child {
+  margin-right: 40px;
 }
 .header-container {
   display: flex;
-  align-items: center;
+  text-align: center;
 }
 .headr-link {
   font-weight: 700;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--black-text--);
-  margin-right: 40px;
 }
 .header-item :hover {
   color: var(--blue-text--);
@@ -109,7 +108,7 @@ body {
 .header-exile {
   display: flex;
   align-items: center;
-  margin-left: 331px;
+  margin-left: auto;
 }
 .header-tel {
   line-height: 1.5;
@@ -125,20 +124,18 @@ body {
 /*---------заголовок+кнопка------*/
 .section-first {
   background-color: #2e2f42;
+  padding: 188px 0px;
+  text-align: center;
+  padding-bottom: 192px;
 }
 .main-first {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.1;
   text-align: center;
-  letter-spacing: 0.02em;
   color: #ffffff;
   width: 492px;
-  height: 120px;
-  left: 474px;
-  top: 264px;
-  padding-top: 192px;
-  padding-left: 474px;
+  margin: 0 auto;
   margin-bottom: 48px;
 }
 
@@ -154,12 +151,8 @@ body {
   color: var(--write-text--);
   background-color: var(--blue-text--);
   cursor: pointer;
-  border-radius: 4px;
   padding: 16px 32px;
   min-width: 170px;
-  margin-top: 64px;
-  margin-bottom: 208px;
-  margin-left: 667px;
 }
 .button-order:hover {
   background-color: #404bbf;
@@ -182,10 +175,9 @@ body {
 }
 .main-advantages {
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding-left: 156px;
-  padding-right: 156px;
+  gap: 24px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .main-index {
   font-weight: 700;
@@ -193,15 +185,12 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--black-text--);
-  padding-top: 120px;
   margin-bottom: 8px;
 }
 .main-sketchy {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-bottom: 120px;
-  margin-right: 24px;
 }
 /*----------що ми робимо------*/
 .maim-two {
@@ -216,12 +205,9 @@ body {
   margin-bottom: 72px;
 }
 .main-photo {
-  padding-bottom: 120px;
   display: flex;
-  align-items: center;
   gap: 24px;
-  padding-left: 156px;
-  padding-right: 156px;
+  padding-bottom: 120px;
 }
 .main-work {
   background-color: #f4f4fd;
@@ -240,9 +226,6 @@ body {
   padding-bottom: 120px;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  padding-left: 156px;
-  padding-right: 156px;
   gap: 24px;
 }
 .main-name {
@@ -254,14 +237,12 @@ body {
   color: var(--black-text--);
   margin-bottom: 8px;
   margin-top: 32px;
-  background: #ffffff;
 }
 .main-profession {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--gren-text--);
-  background: #ffffff;
 }
 /*---------підвал------*/
 .footer {
@@ -308,8 +289,10 @@ body {
 }
 .portfolio-buttons {
   display: flex;
-  align-items: center;
-  margin-left: 451px;
+  justify-content: center;
+  padding-top: 96px;
+  padding-bottom: 72px;
+  gap: 24px;
 }
 .portfolio-button {
   display: inline-block;
@@ -326,9 +309,6 @@ body {
   border: 1px solid #e7e9fc;
   padding: 12px 24px;
   min-width: 116px;
-  margin-top: 108px;
-  margin-bottom: 84px;
-  margin-left: 24px;
 }
 .portfolio-button:hover {
   background-color: var(--blue-text--);
@@ -342,10 +322,10 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  padding-left: 156px;
-  padding-right: 156px;
+  padding-bottom: 152px;
 }
-.images-photo {
+.main-sketchy-two {
+  margin-bottom: 80px;
 }
 .main-index-portfolio {
   font-weight: 700;
@@ -355,4 +335,7 @@ body {
   color: var(--black-text--);
   margin-bottom: 8px;
   margin-top: 32px;
+}
+.border {
+  border-bottom: 1px solid #e7e9fc;
 }
