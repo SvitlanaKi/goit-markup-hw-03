@@ -333,10 +333,31 @@ body {
 }
 .images {
   display: flex;
-  gap: 24px;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 24px;
 }
 .images:nth-child(3n) {
   gap: 0;
+}
+.index-sketchy {
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
+.images-photo {
+  background: #ffffff;
+  border: 0.5px solid #f4f4fd;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+  margin-bottom: 48px;
+}
+.main-index-portfolio {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--black-text--);
+  padding-bottom: 8px;
+}
+.border {
+  border-bottom: 1px solid #e7e9fc;
 }
