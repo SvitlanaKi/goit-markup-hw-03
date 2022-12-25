@@ -38,7 +38,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
 }
 .header {
   padding-top: 24px;
@@ -129,7 +129,6 @@ body {
   background-color: #2e2f42;
   padding: 188px 0px;
   text-align: center;
-  padding-bottom: 192px;
 }
 .main-first {
   font-weight: 700;
@@ -214,7 +213,6 @@ body {
 .main-photo {
   display: flex;
   gap: 24px;
-  justify-content: center;
 }
 .main-work {
   background-color: #f4f4fd;
@@ -233,7 +231,6 @@ body {
 .main-people {
   display: flex;
   gap: 24px;
-  justify-content: center;
 }
 .border-people {
   background: #ffffff;
@@ -243,7 +240,7 @@ body {
 }
 .name-proffesion {
   padding-top: 32px;
-  padding-bottom: 8px;
+  padding-bottom: 32px;
 }
 .main-name {
   font-weight: 700;
@@ -301,11 +298,14 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.portfolio-one {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .portfolio-buttons {
   display: flex;
   justify-content: center;
-  padding-top: 96px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   gap: 24px;
 }
 .portfolio-button {
@@ -322,6 +322,7 @@ body {
   cursor: pointer;
   border: 1px solid #e7e9fc;
   padding: 12px 24px;
+  border-radius: 4px;
 }
 .portfolio-button:hover {
   background-color: var(--blue-text--);
@@ -334,21 +335,17 @@ body {
 .images {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 24px;
+  gap: 48px 24px;
 }
-.images:nth-child(3n) {
-  gap: 0;
-}
+
 .index-sketchy {
-  padding-top: 32px;
-  padding-bottom: 16px;
+  padding: 32px 16px;
+  border: 0.5px solid #f4f4fd;
+  border-top: 0;
 }
 .images-photo {
   background: #ffffff;
-  border: 0.5px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-  margin-bottom: 48px;
 }
 .main-index-portfolio {
   font-weight: 700;
@@ -356,7 +353,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--black-text--);
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .border {
   border-bottom: 1px solid #e7e9fc;
