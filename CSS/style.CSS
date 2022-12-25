@@ -333,9 +333,9 @@ body {
 }
 .images {
   display: flex;
+  gap: 24px;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 24px;
 }
 .images:nth-child(3n) {
   gap: 0;
