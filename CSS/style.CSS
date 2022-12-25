@@ -358,3 +358,6 @@ body {
   color: var(--black-text--);
   padding-bottom: 8px;
 }
+.border {
+  border-bottom: 1px solid #e7e9fc;
+}
