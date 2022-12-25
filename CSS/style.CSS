@@ -34,11 +34,11 @@ body {
   text-decoration: none;
 }
 .container {
-  width: 1188px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  /*outline: 1px solid red;*/
   margin: 0 auto;
+  outline: 1px solid red;
 }
 .header {
   padding-top: 24px;
@@ -92,6 +92,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--black-text--);
 }
+.current {
+  color: var(--blue-text--);
+}
 .header-item :hover {
   color: var(--blue-text--);
 }
@@ -109,6 +112,7 @@ body {
   display: flex;
   align-items: center;
   margin-left: auto;
+  gap: 40px;
 }
 .header-tel {
   line-height: 1.5;
@@ -119,7 +123,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--gren-text--);
-  margin-right: 40px;
 }
 /*---------заголовок+кнопка------*/
 .section-first {
@@ -152,7 +155,8 @@ body {
   background-color: var(--blue-text--);
   cursor: pointer;
   padding: 16px 32px;
-  min-width: 170px;
+  border: none;
+  border-radius: 4px;
 }
 .button-order:hover {
   background-color: #404bbf;
@@ -173,11 +177,12 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.section-advantages {
+  padding: 120px 0px;
+}
 .main-advantages {
   display: flex;
   gap: 24px;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .main-index {
   font-weight: 700;
@@ -193,6 +198,9 @@ body {
   color: #434455;
 }
 /*----------що ми робимо------*/
+.main-two-section {
+  padding-bottom: 120px;
+}
 .maim-two {
   font-weight: 700;
   font-size: 36px;
@@ -201,16 +209,16 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--black-text--);
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 .main-photo {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
+  justify-content: center;
 }
 .main-work {
   background-color: #f4f4fd;
+  padding: 120px 0px;
 }
 /*---------наші спеціалісти------*/
 .maim-team {
@@ -223,10 +231,19 @@ body {
   color: var(--black-text--);
 }
 .main-people {
-  padding-bottom: 120px;
   display: flex;
-  align-items: center;
   gap: 24px;
+  justify-content: center;
+}
+.border-people {
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+.name-proffesion {
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 .main-name {
   font-weight: 700;
@@ -236,7 +253,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--black-text--);
   margin-bottom: 8px;
-  margin-top: 32px;
 }
 .main-profession {
   line-height: 1.5;
@@ -252,7 +268,6 @@ body {
 }
 /*---Логотип------*/
 .footer {
-  padding-left: 156px;
   border: 4px #ffffff;
 }
 .footer-logo {
@@ -271,7 +286,6 @@ body {
   letter-spacing: 0.02em;
   color: #e7e9fc;
   width: 264px;
-  height: 72px;
   margin-top: 16px;
 }
 /*---------кнопки портфоліо------*/
@@ -308,7 +322,6 @@ body {
   cursor: pointer;
   border: 1px solid #e7e9fc;
   padding: 12px 24px;
-  min-width: 116px;
 }
 .portfolio-button:hover {
   background-color: var(--blue-text--);
@@ -321,11 +334,21 @@ body {
 .images {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 24px;
-  padding-bottom: 152px;
 }
-.main-sketchy-two {
-  margin-bottom: 80px;
+.images:nth-child(3n) {
+  gap: 0;
+}
+.index-sketchy {
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
+.images-photo {
+  background: #ffffff;
+  border: 0.5px solid #f4f4fd;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+  margin-bottom: 48px;
 }
 .main-index-portfolio {
   font-weight: 700;
@@ -333,9 +356,5 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--black-text--);
-  margin-bottom: 8px;
-  margin-top: 32px;
-}
-.border {
-  border-bottom: 1px solid #e7e9fc;
+  padding-bottom: 8px;
 }
