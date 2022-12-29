@@ -339,7 +339,10 @@ body {
 }
 
 .index-sketchy {
-  padding: 32px 16px;
+  /* padding: 32px 16px;*/
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
   border: 0.5px solid #f4f4fd;
   border-top: 0;
 }
@@ -354,6 +357,11 @@ body {
   letter-spacing: 0.02em;
   color: var(--black-text--);
   margin-bottom: 8px;
+}
+.main-sketchy-two {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--gren-text--);
 }
 .border {
   border-bottom: 1px solid #e7e9fc;
